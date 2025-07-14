@@ -3,8 +3,6 @@
 
 A basic road crossing game where players navigate across traffic using up and down buttons.
 
-![Game Screenshot](screenshot.png)
-
 ## How to Play
 
 - Use the ↑ (up) and ↓ (down) buttons to move your character
@@ -20,7 +18,7 @@ A basic road crossing game where players navigate across traffic using up and do
 
 ## Installation
 
-No installation needed! Just visit the [GitHub Pages site](https://yourusername.github.io/road-crossing-game/).
+No installation needed! Just visit the [GitHub Pages site](https://r4tur1.github.io/Bubble-Crossing).
 
 ## Running Locally
 
