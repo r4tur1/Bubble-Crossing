@@ -18,7 +18,7 @@ A basic road crossing game where players navigate across traffic using up and do
 
 ## Installation
 
-No installation needed! Just visit the [GitHub Pages site](https://r4tur1.github.io/Bubble-Crossing).
+No installation needed! Just visit the [Bubble-Crossing](https://r4tur1.github.io/Bubble-Crossing).
 
 ## Running Locally
 
