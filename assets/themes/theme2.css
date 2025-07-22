@@ -1,0 +1,69 @@
+/* Neon Theme */
+.theme-neon {
+    --primary-color: #ff00ff;
+    --secondary-color: #00ffff;
+    --background-color: #0f0f1a;
+    --text-color: #ffffff;
+    --bubble-colors: #ff00ff, #00ffff, #ffff00, #ff00aa, #00ffaa;
+}
+
+.theme-neon #game-board {
+    background: linear-gradient(to bottom, #0f0f1a, #1a1a2e);
+    border: 2px solid rgba(255, 0, 255, 0.3);
+}
+
+.theme-neon .player {
+    background: #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+}
+
+.theme-neon .player:after {
+    background: radial-gradient(circle at 30% 30%, #00ffff, rgba(0, 255, 255, 0.5));
+}
+
+.theme-neon .glow-btn {
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    box-shadow: 0 5px 15px rgba(255, 0, 255, 0.4);
+}
+
+.theme-neon .glow-btn:hover {
+    box-shadow: 0 8px 20px rgba(255, 0, 255, 0.6);
+}
+
+.theme-neon .control-btn {
+    background: rgba(255, 0, 255, 0.1);
+    border: 1px solid rgba(255, 0, 255, 0.2);
+}
+
+.theme-neon .control-btn:hover {
+    background: rgba(255, 0, 255, 0.2);
+}
+
+.theme-neon #game-over {
+    background: rgba(15, 15, 26, 0.9);
+    border: 1px solid rgba(255, 0, 255, 0.2);
+}
+
+.theme-neon .speed-bubble {
+    background: #ffff00 !important; /* Bright yellow */
+    box-shadow: 0 0 10px #ffff00;
+}
+
+.theme-neon .multiplier-bubble {
+    background: #00ffaa !important; /* Aqua green */
+    box-shadow: 0 0 10px #00ffaa;
+}
+
+.theme-neon .invincible-bubble {
+    background: #ff00aa !important; /* Hot pink */
+    box-shadow: 0 0 10px #ff00aa;
+}
+
+.theme-neon .obstacle {
+    background: rgba(255, 0, 0, 0.7);
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.theme-neon .powerup-icon {
+    box-shadow: 0 0 5px currentColor;
+}
